@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER "korea-park <kkyoung@clunix.com>"
+MAINTAINER "korea-park <kkyoung@example.com>"
 LABEL "purpose"="practice"
 RUN apt-get update && apt-get install apache2 -y
 ADD ./test.html /var/www/html
